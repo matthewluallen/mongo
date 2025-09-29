@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 MAINTAINER me@gmail.com
 WORKDIR /opt
 RUN mkdir -p bin/test/format
